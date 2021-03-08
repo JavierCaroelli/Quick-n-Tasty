@@ -9,8 +9,8 @@ import OrdersClosed from "./components/Screens/OrdersClosed";
 function App() {
   return (
     <div>
-      <Route exact={true} path="/" component={Orders} />
-      <Route path="/menu" component={Menu} />
+      <Route exact={true} path="/" component={Menu} />
+      <Route path="/orders" component={Orders} />
       <Route path="/newdish" component={NewDish} />
       <Route path="/closed" component={OrdersClosed} />
       <Route path="/dayorders" component={DayOrders} />

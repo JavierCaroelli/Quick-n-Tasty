@@ -14,7 +14,7 @@ function SideBar() {
             exact={true}
             activeClassName="text-yellow-500"
             className="p-2 text-xg rounded-md text-gray-400 block hover:bg-yellow-500 hover:text-gray-900 text-center font-bold"
-            to="/menu"
+            to="/"
           >
             Menu
           </NavLink>
@@ -22,7 +22,7 @@ function SideBar() {
             exact={true}
             activeClassName="text-yellow-500"
             className="p-2 text-xg rounded-md text-gray-400 block hover:bg-yellow-500 hover:text-gray-900 text-center font-bold"
-            to="/"
+            to="/orders"
           >
             Incomming Orders
           </NavLink>
