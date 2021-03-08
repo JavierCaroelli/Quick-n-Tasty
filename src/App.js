@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route } from "react-router-dom";
+import Menu from "./components/Screens/Menu";
+import NewDish from "./components/Screens/NewDish";
+import Orders from "./components/Screens/Orders";
+import DayOrders from "./components/Screens/DayOrders";
+import OrdersClosed from "./components/Screens/OrdersClosed";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Route exact={true} path="/" component={Orders} />
+      <Route path="/menu" component={Menu} />
+      <Route path="/newdish" component={NewDish} />
+      <Route path="/closed" component={OrdersClosed} />
+      <Route path="/dayorders" component={DayOrders} />
     </div>
   );
 }
