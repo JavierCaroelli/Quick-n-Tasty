@@ -25,3 +25,9 @@ Es necesario la dirección de la Api de Firebase. O por defecto el archivo .env.
 
 ## Preview 📄
 
+<p>To see the images of this project , click <a href="/Preview">here</a>.</p>
+<p>Para ver las imágenes de este proyecto , haga clic <a href="/Preview">aquí</a>.</p>
+
+
+## licenses 🚨
+Most of the images of dishes were get from <a href="https://unsplash.com/">UnSplash</a>
